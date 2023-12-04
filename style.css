@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+
+body {
+	/* background-color: dodgerblue; */
+	/* background-color: rgb(128, 0, 175); */
+	/* background-color: #8800a0; */
+	/* background-color: hsl(205, 60%, 30%); */
+	/* font-family: sans-serif; */
+	font-family: "Rubik Moonrocks", sans-serif;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	background: linear-gradient(
+		15deg,
+		rgba(27, 222, 199, 1) 0%,
+		rgba(21, 21, 203, 0.7751196172248804) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+h1 span {
+	color: red;
+}
+
+header,
+section {
+	min-height: 600px;
+}
+
+header {
+	/* url can be a path toward a file or an actual online URL */
+	background-image: url("https://images.unsplash.com/photo-1701666469254-6c8c3ec0085b?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+
+main {
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* #shortcuts img {} */
+#terminal-picture {
+	/* height: 160px; */
+	width: 300px;
+}
+
+#margin {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	border: 1px solid black;
+	/* margin: 50px 25px 50px 25px; */
+	/* margin: 0 auto; */
+}
+/* 
+#text-margin {
+	max-width: 50%;
+	margin: 0 auto;
+} */
